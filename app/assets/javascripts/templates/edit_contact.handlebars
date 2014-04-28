@@ -1,4 +1,4 @@
-<h1>New contact</h1>
+<h1>Edit {{name}}</h1>
 
 <form>
   <div class="form-group">
@@ -23,9 +23,5 @@
     {{input type="text" id="email" class="form-control" value=email}}
   </div>
 
-  <button {{action createContact}} class="btn btn-default">Create contact</button>
+  <button {{action updateContact}} class="btn btn-default">Update contact</button>
 </form>
-
-<p>{{name}}</p>
-<p>{{phone}}</p>
-<p>{{email}}</p>
